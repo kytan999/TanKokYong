@@ -9,7 +9,7 @@
 header {
     background-color: #93d0f4;
     text-align: center;
-    color: white;
+    color: #ffffff;
     padding: 20px;
 }
 
@@ -18,7 +18,7 @@ header {
 body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
-    color: #333;
+    color: #333333;
     line-height: 1.6;
     padding: 20px;
 }
@@ -37,14 +37,14 @@ ul {
 table {
     width: 100%;
     border-collapse: collapse;
-    border: 1px solid #ddd;
+    border: 1px solid #dddddd;
 }
 
 th,
 td {
     padding: 10px;
     text-align: left;
-    border: 1px solid #ddd;
+    border: 1px solid #dddddd;
 }
 
 th {
@@ -59,7 +59,7 @@ a {
 }
 
 a:hover {
-    color: gray;
+    color: #808080;
     text-decoration: underline;
 }
 
@@ -68,6 +68,6 @@ a:hover {
 footer {
     background-color: #93d0f4;
     text-align: center;
-    color: white;
+    color: #ffffff;
     padding: 10px;
 }

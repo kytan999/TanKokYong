@@ -13,7 +13,7 @@ const disneyData = [
 	}
 ];
 
-//Declare total sum
+// Declare total sum
 let totalSum = 0;
 for (let i = 0; i < disneyData.length; i++) {
 	totalSum += parseFloat(disneyData[i].close);

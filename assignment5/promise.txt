@@ -1,0 +1,86 @@
+Question 1:
+p.then(value => {
+   console.log(value);
+});
+
+
+
+Question 2:
+p.catch(error => {
+   console.error(error);
+});
+
+
+
+Question 3:
+p.then(data => {
+   console.log(data);
+});
+
+
+
+Question 4:
+p.then(data => { 
+   console.log(data.name);
+});
+
+
+
+Question 5:
+p.catch(error => {
+   console.error(error);
+});
+
+
+
+Question 6:
+p.finally(() => {
+   console.log("Promise Settled");
+});
+
+
+
+Question 7:
+p.then(value => {
+  const ValueX2 = value * 2;
+  console.log(ValueX2);
+});
+
+
+
+Question 8:
+p.catch(() => 0)
+  .then(result => console.log(result));
+
+
+
+Question 9:
+Promise.all(promises).then(values => {
+  console.log(values);
+});
+
+
+
+Question 10:
+const promises = [
+  new Promise(resolve => setTimeout(() => resolve('a'), 100)), 
+  new Promise(resolve => setTimeout(() => resolve('b'), 50)),
+  new Promise(resolve => setTimeout(() => resolve('c'), 150))
+];
+
+Promise.race(promises).then(result => {
+    console.log(result);
+});
+
+
+
+Bonus Question:
+p.then((value) => {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve('Hello ' + value);
+    }, 1000);
+  });
+}).then((finalValue) => {
+  console.log(finalValue); 
+});
